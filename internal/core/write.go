@@ -1,3 +1,5 @@
+//go:build !nocoretools
+
 package core
 
 import (

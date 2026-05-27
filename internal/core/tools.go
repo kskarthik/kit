@@ -1,3 +1,5 @@
+//go:build !nocoretools
+
 // Package core provides the built-in core tools for KIT's coding agent.
 // These tools are direct fantasy.AgentTool implementations — no MCP layer,
 // no JSON-RPC, no serialization overhead. Core tool set: bash, read, write,
